@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../img/logo.png";
+import logo from "../../img/logo2.png";
 import "./header.css";
 
 export default function Header() {
   return (
+    <section id="inicio-section">
+      <div className="content">
     <header>
-      <div className="contenainer_header">
+      <div className="container_header">
         <img src={logo} alt=""/>
         <nav id="nav" className="">
           <ul id="links">
@@ -36,10 +38,12 @@ export default function Header() {
         
         {/* Iconos de las redes sociales */}
         <div id="redes">
-          <a href><i class="fa-brands fa-github"></i></a>
-          <a href><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/FrancoTejada1" target="_blank" ><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/francotejada/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </header>
+    </div>
+    </section>
   );
 }
