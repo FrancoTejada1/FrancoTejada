@@ -30,14 +30,14 @@ h2 {
   display: inline-block;
   margin: 25px;
   padding: 20px 25px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 50px;
   background: transparent;
 }
 
 .btn-cv a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   text-transform: uppercase;
   transition: .5s;

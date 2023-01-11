@@ -23,7 +23,7 @@
 }
 
 img {
-  margin-inline: -240px 0;
+  /* margin-inline: -240px 0; */
   width: 5%;
 }
 
@@ -38,8 +38,7 @@ nav ul {
   margin-inline: auto;
 }
 
-a,
-a:visited {
+nav, #links, li, a{
   color: #937efe;
   font-size: 1.4rem;
   text-decoration: none;
@@ -49,8 +48,8 @@ a:visited {
   transition: .5s;
 }
 
-a:hover, a:active {
-  color: #937efe;
+nav ul li a:hover{
+  color: #000;
 }
 
 
