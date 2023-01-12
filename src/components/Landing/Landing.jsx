@@ -14,10 +14,13 @@ export default function Landing() {
         <Hero />
       </div>
       <div>
-        <About />
-      </div>
-      <div>
         <Tech />
+      </div>
+      {/* <div>
+        <About />
+      </div> */}
+      <div>
+        <About />
       </div>
     </>
   );

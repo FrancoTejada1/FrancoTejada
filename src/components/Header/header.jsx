@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import logo from "../../img/logo2.png";
 import "./header.css";
 
@@ -13,20 +13,20 @@ export default function Header() {
           <ul id="links">
             <li>
               <a href="#inicio" className="active">
-                Inicio
+                INICIO
               </a>
             </li>
             <li>
-              <a href="#tecnologias">Tecnologias</a>
+              <a href="#tecnologias">TECNOLOGIAS</a>
             </li>
             <li>
-              <a href="#proyectos">Proyectos</a>
+              <a href="#proyectos">PROYECTOS</a>
             </li>
             <li>
-              <a href="#sobremi">Sobre Mi</a>
+              <a href="#sobremi">SOBRE MI</a>
             </li>
             <li>
-              <a href="#contacto">Contacto</a>
+              <a href="#contacto">CONTACTO</a>
             </li>
           </ul>
         </nav>

@@ -39,9 +39,11 @@ h2 {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
   text-transform: uppercase;
   transition: .5s;
   padding: 20px 0;
+  margin-inline: auto;
 }
 
 .btn-cv:hover {

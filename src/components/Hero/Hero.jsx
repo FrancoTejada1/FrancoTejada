@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import cv from "../../img/CV-SoftwareDeveloper.pdf";
 import "./Hero.css";
 
 export default function Hero() {
   return (
+    <section id="inicio">
     <div className="hero">
       <p className="description">Hola</p>
       <h2>Soy Franco Tejada, Desarrollador Full Stack</h2>
@@ -18,5 +19,6 @@ export default function Hero() {
         </a>
       </button>
     </div>
+    </section>
   );
 }
