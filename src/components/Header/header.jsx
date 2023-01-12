@@ -8,7 +8,7 @@ export default function Header() {
       <div className="content">
     <header>
       <div className="container_header">
-        <img src={logo} alt=""/>
+        <a href="/"><img src={logo} alt=""/></a>
         <nav id="nav" className="">
           <ul id="links">
             <li>

@@ -1,8 +1,10 @@
 #tecnologias {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .titulo-tech {
+    display: flex;
+    justify-content: center;
     margin-block: 2rem;
     padding-block: 1rem;
 }
@@ -16,7 +18,6 @@
     grid-row-gap: 2rem;
     grid-template-columns: repeat(4,4fr);
     margin-inline: auto;
-    grid-row-gap: 2rem;
     row-gap: 2rem;
     width: 80%;
     background-color: #ced6db;
@@ -31,11 +32,19 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
+    max-width: 400px;
+    max-height: 400px;   
 }
 
 .imgs-tech img {
-    width: auto;
+    width: 40%;
+    height: 50%;
+}
+
+.imgs-tech:hover {
+    transform: scale(1.2);
+    transition: .5s;
 }
 
 .imgs-tech h3 {

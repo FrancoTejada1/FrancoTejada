@@ -1,56 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sofia+Sans+Semi+Condensed&display=swap');
 
+section #inicio {
+  padding: 50px 0;
+}
+
 .hero {
   max-width: 1100px;
-  height: 100vh;
+  height: 80vh;
   margin: auto;
   color: #343844;
   display: flex;
   font-family: 'Sofia Sans Semi Condensed', sans-serif;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.description {
-  font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+.fa-solid {
+  font-size: 7rem;
 }
 
-h2 {
-  font-size: 30px;
+.hero h2 {
+  font-size: 7rem;
   margin-bottom: 25px;
   text-align: center;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 11ch;
+  animation: typing 2s steps(12),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
 }
 
-.btn-cv {
-  display: inline-block;
-  margin: 25px;
-  padding: 20px 25px;
-  border: 2px solid #000;
-  border-radius: 50px;
-  background: transparent;
+@keyframes typing {
+  from {width: 0}
 }
 
-.btn-cv a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-family: 'Sofia Sans Semi Condensed', sans-serif;
-  text-transform: uppercase;
-  transition: .5s;
-  padding: 20px 0;
-  margin-inline: auto;
-}
-
-.btn-cv:hover {
-  background-color: black;
-  
-}
-
-a:hover {
-  color: #937efe;
+@keyframes blink {
+  50% {border-color: transparent}
 }

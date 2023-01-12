@@ -1,53 +1,89 @@
 #sobremi {
-    max-width: 1300px;
-    margin: auto;
-    padding: 194px 15px;
-    color: black;
-    display: flex;
+  max-width: 1300px;
+  margin: auto;
+  padding: 194px 15px;
+  color: black;
+  display: flex;
 }
 
 .contenedor-foto {
-    max-width: 1000px;
-    margin-right: 80px;
+  max-width: 1000px;
+  margin-right: 80px;
 }
 
 .contenedor-foto img {
-    padding: 20px;
-    width: 100%;
-    border-radius: 20px;
-    background-color: #ced6db;
-    box-shadow: 5px 5px 7px #937efe;
-    height: 100%;
+  padding: 20px;
+  width: 115%;
+  border-radius: 20px;
+  background-color: #ced6db;
+  box-shadow: 5px 5px 7px #937efe;
+  height: 100%;
 }
 
 .sobreMi {
-    margin: 0 40px;
-    width: 100%;
+  margin: 0 40px;
+  width: 100%;
 }
 
 .sobreMi .titulo-seccion {
-    font-size: 3rem;
-    text-decoration: underline;
-    text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+  text-decoration-thickness: 5px;
 }
 
 .sobreMi h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 20px 0;
-    letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
 
+.sobreMi h3 {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .sobreMi p {
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  margin-inline: inherit;
 }
 
-
-
-
+.btn-cv {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0 25px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    background: transparent;
+  }
+  
+  .btn-cv a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    transition: .5s;
+    padding: 20px 0;
+    margin-inline: auto;
+  }
+  
+  .btn-cv:hover {
+    background-color: black;
+    
+  }
+  
+  a:hover {
+    color: #937efe;
+  }
