@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sofia+Sans+Semi+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Sofia+Sans+Semi+Condensed&display=swap");
 
-section #inicio {
+#inicio {
   padding: 50px 0;
 }
 
@@ -9,33 +9,69 @@ section #inicio {
   height: 80vh;
   margin: auto;
   color: #343844;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
   display: flex;
-  font-family: 'Sofia Sans Semi Condensed', sans-serif;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  letter-spacing: 10px;
 }
 
-.fa-solid {
+.hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero2 .fa-solid {
   font-size: 7rem;
+  margin-bottom: 25px;
 }
 
-.hero h2 {
+.hero .hero2 h2 {
   font-size: 7rem;
   margin-bottom: 25px;
   text-align: center;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 11ch;
-  animation: typing 2s steps(12),
-  blink .5s infinite step-end alternate;
+  width: 15ch;
+  animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 
+.hero3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
 @keyframes typing {
-  from {width: 0}
+  from {
+    width: 0;
+  }
 }
 
 @keyframes blink {
-  50% {border-color: transparent}
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media screen and (max-width: 1105px) {
+  #inicio .hero h2 {
+    font-size: 6rem;
+  }
+  #inicio .hero .fa-solid {
+    font-size: 5rem;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #inicio .hero h2 {
+    font-size: 4rem;
+  }
+  #inicio .hero .fa-solid {
+    font-size: 3rem;
+  }
 }

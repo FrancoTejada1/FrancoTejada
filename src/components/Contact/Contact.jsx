@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact.css";
 
 export default function Contact() {
     return(
@@ -6,7 +7,7 @@ export default function Contact() {
             <h3 className="titulo-seccion">Contactame</h3>
             <div className="contenedor-form">
                 <form action="">
-                    <div className="fila">
+                    <div className="fila mitad">
                         <input type="text" placeholder="Nombre Completo" className="input-mitad"/>
                         <input type="text" placeholder="Direccion de Email" className="input-mitad"/>
                     </div>

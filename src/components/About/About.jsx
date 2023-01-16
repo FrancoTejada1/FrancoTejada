@@ -19,12 +19,7 @@ export default function About() {
           ratione recusandae in!
         </p>
         <button className="btn-cv">
-        <a
-          href={cv}
-          target="_blank"
-          rel="noopener noreferrer"
-          download="Franco Tejada - CV - Software Developer.pdf"
-        >
+        <a href={cv} target="_blank" rel="noopener noreferrer" download="Franco Tejada - CV - Software Developer.pdf">
           Descarga CV
         </a>
       </button>

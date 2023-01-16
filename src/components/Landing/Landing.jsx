@@ -5,27 +5,19 @@ import Tech from "../Technologies/technologies";
 import Proyects from "../Proyects/Proyects";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 export default function Landing() {
   return (
     <>
       <div>
         <Header />
-      </div>
-      <div>
         <Hero />
-      </div>
-      <div>
         <Tech />
-      </div>
-      <div>
         <Proyects />
-      </div>
-      <div>
         <About />
-      </div>
-      <div>
         <Contact />
+        <Footer />
       </div>
     </>
   );
