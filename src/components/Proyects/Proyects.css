@@ -1,7 +1,7 @@
 #proyectos {
     padding: 100px 15px;
     text-align: center;
-    background-color: #ced6db99;
+    background-color: #42464826;
 }
 
 #proyectos .titulo-seccion {
@@ -14,15 +14,15 @@
 
 #proyectos .fila {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 1500px;
     margin: 30px auto;
 }
 
 #proyectos .fila .proyectos {
-    max-width: 450px;
-    background-color: #fff;
-    padding: 0 0 30px 0;
+    max-width: 600px;
+    background-color: #d9d9d9cc;
+    padding: 0 0 45px 0;
     margin: 0 5px;
     border-radius: 5px;
     transition: .5s;
@@ -35,14 +35,15 @@
 #proyectos .fila .proyectos .icono {
     display: inline-block;
     width: 100%;
-    height: 65%;
+    height: 70%;
     border-radius: 50%;
-    padding: 20px 0;
+    padding: 0 0 20px 0;
 }
 
 #proyectos .fila .proyectos .icono img {
-    width: 97%;
+    width: 100%;
     height: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 #proyectos .fila .proyectos h2 {
@@ -53,7 +54,70 @@
 #proyectos .fila .proyectos p {
     margin: 25px;
     font-size: 0.9rem;
+    text-transform: uppercase;
+}
 
+#proyectos .fila .proyectos .btn {
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+
+#proyectos .fila .proyectos .btn button {
+    margin: 0 5px 10px 5px;
+    border-radius: 20px;
+    background: #F0f0f0;
+    border: 1px solid #919191;
+    cursor: pointer;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    text-transform: uppercase;
+    transition: all 1s ease;
+    padding: 6px 5px;
+}
+
+#proyectos .fila .proyectos .btn button:hover {
+    box-shadow: 2px 2px 5px #919191, -2px -2px 5px #919191;
+} 
+
+#proyectos .fila .proyectos .btn button a {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin: 0;
+}
+
+#proyectos .fila .proyectos .btn button a:hover {
+    color: #937efe;
+}
+
+@media screen and (max-width: 800px) {
+    #proyectos .fila {
+        flex-direction: column;
+        align-items: center;
+    }
+    #proyectos .fila .proyectos {
+        margin-bottom: 40px;
+        box-shadow: 2px 2px 5px #919191, -2px -2px 5px #919191;
+    }
+}
+
+@media screen and (max-width: 320px) and (max-height: 480px) {
+    #proyectos .titulo-seccion {
+        font-size: 2.3rem;
+    }
+    #proyectos .fila {
+        flex-direction: column;
+    }
+    #proyectos .fila .proyectos {
+        padding: 0;
+        margin: 15px 5px;
+        box-shadow: 5px 5px 5px #937efe;
+    }
+    #proyectos .fila .proyectos .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* .carrousel {

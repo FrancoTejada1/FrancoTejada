@@ -13,16 +13,21 @@ export default function About() {
         <h2 className="titulo-seccion">SOBRE MI</h2>
         <h3>Franco Tejada - Desarrollador Full Stack</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est obcaecati
-          eveniet temporibus quam. Sequi, aperiam, veritatis quidem ab esse
-          asperiores nostrum repudiandae invent ore, ipsum deserunt sint harum
-          ratione recusandae in!
+          Mi nombre es Franco Tejada, Full Stack Developer con la capacidad de
+          realizar proyectos complejos en equipo utilizando herramientas y
+          metodologías ágiles. Siempre en constante aprendizaje para dar lo
+          mejor de mí. Abierto a nuevas ideas y formas de crear software
         </p>
         <button className="btn-cv">
-        <a href={cv} target="_blank" rel="noopener noreferrer" download="Franco Tejada - CV - Software Developer.pdf">
-          Descarga CV
-        </a>
-      </button>
+          <a
+            href={cv}
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Franco Tejada - CV - Software Developer.pdf"
+          >
+            Descarga CV
+          </a>
+        </button>
       </div>
     </section>
   );

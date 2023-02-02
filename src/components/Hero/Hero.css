@@ -2,6 +2,7 @@
 
 #inicio {
   padding: 50px 0;
+  background: #42464800;
 }
 
 .hero {
@@ -43,6 +44,7 @@
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+  text-align: center;
 }
 
 @keyframes typing {
@@ -67,11 +69,35 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  #inicio .hero h2 {
-    font-size: 4rem;
+@media screen and (max-width: 800px) {
+  #inicio .hero .hero2 {
+    flex-direction: column;
   }
-  #inicio .hero .fa-solid {
+  #inicio .hero .hero2 .fa-solid {
     font-size: 3rem;
+  }
+  #inicio .hero .hero2 h2 {
+    font-size: 3rem;
+    width: 18.5ch;
+  }
+  #inicio .hero .hero3 h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) and (max-height: 480px) {
+  #inicio .hero .hero2 {
+    flex-direction: column;
+  }
+  #inicio .hero .hero2 .fa-solid {
+    font-size: 2.5rem;
+  }
+  #inicio .hero .hero2 h2 {
+    font-size: 2.5rem;
+    letter-spacing: normal;
+  }
+  #inicio .hero .hero3 h3 {
+    text-align: center;
+    font-size: 1.5rem;
   }
 }

@@ -17,12 +17,12 @@ export default function Tech() {
   return (
     <section id="tecnologias">
       <div className="titulo-tech">
-        <h2 className="titulo-seccion">TECNOLOGIAS</h2>
+        <h2>TECNOLOGIAS</h2>
       </div>
       <div className="imgs">
         <div className="imgs-tech">
           <img src={html} alt="" />
-          <h3>HTML</h3>
+          <h3>HTML</h3> 
         </div>
         <div className="imgs-tech">
           <img src={css} alt="" />
@@ -38,27 +38,27 @@ export default function Tech() {
         </div>
         <div className="imgs-tech">
           <img src={react} alt="" />
-          <h3>React</h3>
+          <h3>React</h3> 
         </div>
         <div className="imgs-tech">
           <img src={redux} alt="" />
-          <h3>Redux</h3>
+          <h3>Redux</h3> 
         </div>
         <div className="imgs-tech">
           <img src={node} alt="" />
-          <h3>NodeJS</h3>
+          <h3>NodeJS</h3> 
         </div>
         <div className="imgs-tech">
           <img src={express} alt="" />
-          <h3>Express</h3>
+          <h3>Express</h3> 
         </div>
         <div className="imgs-tech">
           <img src={sequelize} alt="" />
-          <h3>Sequelize</h3>
+          <h3>Sequelize</h3> 
         </div>
         <div className="imgs-tech">
           <img src={postgres} alt="" />
-          <h3>PostgreSQL</h3>
+          <h3>PostgreSQL</h3> 
         </div>
         <div className="imgs-tech">
           <img src={mongo} alt="" />
@@ -66,7 +66,7 @@ export default function Tech() {
         </div>
         <div className="imgs-tech">
           <img src={git} alt="" />
-          <h3>Git</h3>
+          <h3>Git</h3> 
         </div>
       </div>
     </section>

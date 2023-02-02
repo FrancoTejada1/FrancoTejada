@@ -3,6 +3,18 @@ import logo from "../../img/logo2.png";
 import "./header.css";
 
 export default function Header() {
+
+  const seleccionar  = (link) => {
+    var opciones = document.querySelector('#links a');
+    opciones[0].className = "";
+    opciones[1].className = "";
+    opciones[2].className = "";
+    opciones[3].className = "";
+    opciones[4].className = "";
+
+    var x = document.getElementById("nav");
+    x.className = "";
+  }
  
   const responsiveMenu = () => {
     var x = document.getElementById("nav");
@@ -27,21 +39,21 @@ export default function Header() {
         <nav id="nav" className="">
           <ul id="links">
             <li>
-              <a href="#inicio" className="active">
+              <a href="#inicio" className="seleccionado" onClick={() => seleccionar(this)}>
                 INICIO
               </a>
             </li>
             <li>
-              <a href="#tecnologias">TECNOLOGIAS</a>
+              <a href="#tecnologias" onClick={() => seleccionar(this)}>TECNOLOGIAS</a>
             </li>
             <li>
-              <a href="#proyectos">PROYECTOS</a>
+              <a href="#proyectos" onClick={() => seleccionar(this)}>PROYECTOS</a>
             </li>
             <li>
-              <a href="#sobremi">SOBRE MI</a>
+              <a href="#sobremi" onClick={() => seleccionar(this)}>SOBRE MI</a>
             </li>
             <li>
-              <a href="#contacto">CONTACTO</a>
+              <a href="#contacto" onClick={() => seleccionar(this)}>CONTACTO</a>
             </li>
           </ul>
         </nav>
@@ -53,8 +65,8 @@ export default function Header() {
         
         {/* Iconos de las redes sociales */}
         <div className="redes">
-          <a href="https://github.com/FrancoTejada1" target="_blank" ><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/francotejada/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/FrancoTejada1" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/francotejada/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </header>

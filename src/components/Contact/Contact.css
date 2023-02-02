@@ -1,16 +1,15 @@
 #contacto {
     padding: 100px 15px;
+    background-color: #42464826;
 }
 
 #contacto .titulo-seccion {
     margin-bottom: 20px;
+    padding-block: 1rem;
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
     color: #111135;
-    text-decoration: underline;
-    text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
 }
 
 #contacto .contenedor-form {
@@ -57,14 +56,22 @@
 }
 
 #contacto .contenedor-form .btn-enviar:hover {
-    background-color: #000;
+    box-shadow: 2px 2px 5px #919191, -2px -2px 5px #919191;
     color: #937efe;
 }
 
 /* RESPONSIVE NETBOOKS */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     #contacto {
-        padding: 33px 55px;
+        padding: 100px 15px
     }
-  }
+    #contacto .contenedor-form .mitad {
+        margin-bottom: 15px;
+        display: block;
+    }
+    #contacto .contenedor-form .mitad input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

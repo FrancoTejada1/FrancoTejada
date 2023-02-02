@@ -27,9 +27,6 @@
 
 #sobremi .sobreMi .titulo-seccion {
   font-size: 3rem;
-  text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  text-decoration-thickness: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +42,7 @@
 #sobremi .sobreMi h3 {
   font-size: 1.7rem;
   font-weight: bolder;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -55,6 +53,7 @@
 #sobremi .sobreMi p {
   font-size: 1.1rem;
   font-weight: 500;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -82,7 +81,7 @@
 }
 
 #sobremi .btn-cv:hover {
-  background-color: black;
+  box-shadow: 2px 2px 5px #919191, -2px -2px 5px #919191;
 }
 
 #sobremi a:hover {
@@ -92,9 +91,6 @@
 /* RESPOSIVE NOTEBOOKS CHICAS */
 
 @media screen and (max-width: 1280px) {
-  #sobremi {
-    margin-inline: 30px;
-  }
   #sobremi .contenedor-foto img {
     width: 115%;
     height: 100%;
@@ -150,5 +146,36 @@
   }
   #sobremi .btn-cv a {
     padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #sobremi {
+    padding: 100px 0;
+    display: block;
+  }
+  #sobremi .contenedor-foto {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: auto;
+  }
+  #sobremi .contenedor-foto img {
+    height: 70%;
+    padding: 8px;
+    margin-inline-start: 0;
+  }
+  #sobremi .sobreMi {
+    margin: 0
+  }
+  #sobremi .sobreMi .titulo-seccion {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  #sobremi .sobreMi h3 {
+    font-size: 1rem;
+  }
+  #sobremi .sobreMi p {
+    margin-inline: 0;
   }
 }

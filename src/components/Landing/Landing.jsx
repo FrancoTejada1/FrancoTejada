@@ -10,7 +10,7 @@ import Footer from "../Footer/Footer";
 export default function Landing() {
   return (
     <>
-      <div>
+      <div style={{backgroundColor: "#42464830"}}>
         <Header />
         <Hero />
         <Tech />
