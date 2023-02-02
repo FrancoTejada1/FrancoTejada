@@ -7,10 +7,10 @@ export default function Footer() {
       <p>Todos los derechos reservados - 2023</p>
       <div id="redes">
         <a href="https://github.com/FrancoTejada1" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
         <a href="https://www.linkedin.com/in/francotejada/" target="_blank" rel="noopener noreferrer">
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin"></i>
         </a>
       </div>
     </footer>

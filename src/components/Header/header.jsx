@@ -60,13 +60,13 @@ export default function Header() {
 
         {/* Iconos del menu resposive */}
         <div id="icono-nav" onClick={() => responsiveMenu()}>
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </div>
         
         {/* Iconos de las redes sociales */}
         <div className="redes">
-          <a href="https://github.com/FrancoTejada1" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/francotejada/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/FrancoTejada1" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/francotejada/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </header>
