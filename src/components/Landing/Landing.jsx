@@ -6,11 +6,11 @@ import Proyects from "../Proyects/Proyects";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import './Landing.css';
 
 export default function Landing() {
   return (
-    <>
-      <div style={{backgroundColor: "#42464830"}}>
+      <div className="landing">
         <Header />
         <Hero />
         <Tech />
@@ -19,6 +19,5 @@ export default function Landing() {
         <Contact />
         <Footer />
       </div>
-    </>
   );
 }

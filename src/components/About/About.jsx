@@ -14,7 +14,7 @@ export default function About() {
         <h3>Franco Tejada - Desarrollador Full Stack</h3>
         <p>
           Mi nombre es Franco Tejada, Full Stack Developer con la capacidad de
-          realizar proyectos complejos en equipo utilizando herramientas y
+          realizar proyectos complejos en equipo, utilizando herramientas y
           metodologías ágiles. Siempre en constante aprendizaje para dar lo
           mejor de mí. Abierto a nuevas ideas y formas de crear software
         </p>

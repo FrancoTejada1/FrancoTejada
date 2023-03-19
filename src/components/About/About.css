@@ -78,6 +78,7 @@
   transition: 0.5s;
   padding: 20px 25px;
   margin-inline: auto;
+  font-size: 1.2rem;
 }
 
 #sobremi .btn-cv:hover {
@@ -166,16 +167,29 @@
     margin-inline-start: 0;
   }
   #sobremi .sobreMi {
-    margin: 0
+    margin: 27px 0;
   }
   #sobremi .sobreMi .titulo-seccion {
     font-size: 1.6rem;
     text-align: center;
   }
   #sobremi .sobreMi h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   #sobremi .sobreMi p {
+    margin-inline: 60px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  #sobremi .btn-cv a {
+    padding: 14px 30px;
+    font-size: 1rem;
+}
+}
+
+@media screen and (max-width: 425px) {
+  #sobremi .sobreMi p {
     margin-inline: 0;
+    font-size: 0.9rem;
   }
 }

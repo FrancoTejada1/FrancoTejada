@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="inicio">
       <div className="hero">
         <div className="hero2">
-          <i className="fa-solid fa-terminal"></i>
+        {/*   <i className="fa-solid fa-terminal"></i> */}
           <h2>Hola, Soy Franco</h2>
         </div>
         <div className="hero3">

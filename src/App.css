@@ -24,4 +24,18 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar{
+  width: 5px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: #937efe;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+
 

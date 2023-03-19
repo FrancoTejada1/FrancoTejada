@@ -10,6 +10,7 @@
     font-size: 3rem;
     text-transform: uppercase;
     color: #111135;
+    font-weight: bold;
 }
 
 #contacto .contenedor-form {
@@ -58,6 +59,16 @@
 #contacto .contenedor-form .btn-enviar:hover {
     box-shadow: 2px 2px 5px #919191, -2px -2px 5px #919191;
     color: #937efe;
+}
+
+#contacto .contenedor-form input::placeholder {
+    font-size: 1rem;
+    color: #000;
+}
+
+#contacto .contenedor-form textarea::placeholder {
+    font-size: 1rem;
+    color: #000;
 }
 
 /* RESPONSIVE NETBOOKS */

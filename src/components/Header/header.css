@@ -1,12 +1,112 @@
 #inicio-section {
-  background: transparent;
   background-size: cover;
   background-position: center center;
   height: 11vh;
   background: #42464800;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  padding: 0;
 }
 
-.content header {
+#inicio-section .container-fluid {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 75px;
+  backdrop-filter: blur(6px);
+  box-shadow: 2px 2px 11px black;
+}
+
+#inicio-section .container-fluid .navbar-brand i {
+  font-weight: bold;
+  font-size: 2.85rem;
+  color: #937efe;
+  padding: 0;
+}
+
+#inicio-section .container-fluid button {
+  margin-inline-start: auto;
+}
+
+#inicio-section .container-fluid .screen-large {
+  margin-inline: auto;
+}
+
+#inicio-section .container-fluid .screen-large ul li {
+  margin-inline: 12px;
+  font-size: 1.5rem;
+}
+
+#inicio-section .container-fluid .screen-large ul li a {
+  color: #937efe;
+  text-transform: uppercase;
+}
+
+#inicio-section .container-fluid .dropdown{
+  display: none;
+}
+
+#inicio-section .container-fluid .redes a {
+  text-decoration: none;
+  color: #937efe;
+  display: inline-block;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+#inicio-section .container-fluid .redes a:hover {
+  color: #000;
+}
+
+#inicio-section .container-fluid .redes .fa-brands {
+  font-size: 2.2rem;
+}
+
+@media screen and (max-width: 1060px) {
+  #inicio-section .container-fluid {
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 991px) { 
+  #inicio-section .container-fluid .screen-large {
+    display: none;
+  }
+  #inicio-section .container-fluid .dropdown {
+    display: inline-block;
+    margin-inline-start: auto;
+  }
+  #inicio-section .container-fluid .dropdown button {
+    background: transparent;
+    border: none;
+    font-size: 1.9rem;
+    height: 3.1rem;
+    color: #937efe;
+  }
+  #inicio-section .container-fluid .dropdown .dropdown-menu {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background: #000000c7;
+    border-radius: 0 0 6px 6px;
+    margin: 0;
+  }
+  #inicio-section .container-fluid .dropdown .dropdown-menu .dropdown-item {
+    color: #937efe;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-inline: auto;
+  }
+  #inicio-section .container-fluid .redes a {
+    display: none;
+  }
+}
+
+/* .content header {
   background-color: transparent;
   position: fixed;
   width: 100%;
@@ -26,7 +126,7 @@
 }
 
 img {
-  /* margin-inline: -240px 0; */
+  /* margin-inline: -240px 0;
   width: 3.3rem;
 }
 
@@ -50,8 +150,12 @@ a {
   transition: 0.5s;
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
   color: #000;
+} 
+
+nav ul li a.seleccionado{
+  color: #000
 }
 
 #icono-nav {
@@ -75,7 +179,7 @@ nav ul li a:hover {
   font-size: xx-large;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE 
 
 @media screen and (max-width: 1105px) {
   .container_header {
@@ -103,7 +207,7 @@ nav ul li a:hover {
   }
 }
 
-/* RESPONSIVE TABLET IPAD */
+/* RESPONSIVE TABLET IPAD 
 
 @media screen and (max-width: 1024px) {
   .content header {
@@ -165,4 +269,4 @@ nav ul li a:hover {
   .container_header {
     padding: 15px 35px
   }
-}
+} */

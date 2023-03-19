@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Sofia+Sans+Semi+Condensed&display=swap");
 
 #inicio {
-  padding: 50px 0;
+  padding: 75px 0;
   background: #42464800;
 }
 
 .hero {
-  max-width: 1100px;
+  max-width: 1300px;
   height: 80vh;
   margin: auto;
   color: #343844;
@@ -21,22 +21,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-style: italic;
 }
 
 .hero .hero2 .fa-solid {
-  font-size: 7rem;
+  font-size: 5.1rem;
   margin-bottom: 25px;
+  margin-inline-start: 3rem;
 }
 
 .hero .hero2 h2 {
-  font-size: 7rem;
+  font-size: 6rem;
   margin-bottom: 25px;
   text-align: center;
-  white-space: nowrap;
-  border-right: 4px solid;
-  width: 15ch;
-  animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
+  width: 75%;
   overflow: hidden;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .hero3 {
@@ -47,25 +48,17 @@
   text-align: center;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
 @media screen and (max-width: 1105px) {
-  #inicio .hero h2 {
+  #inicio .hero .hero2 {
+    flex-direction: column;
+  }
+  #inicio .hero .hero2 h2 {
     font-size: 6rem;
   }
-  #inicio .hero .fa-solid {
+  #inicio .hero .hero2 .fa-solid {
     font-size: 5rem;
     margin-bottom: 25px;
+    margin-inline-start: 3rem;
   }
 }
 
@@ -74,11 +67,12 @@
     flex-direction: column;
   }
   #inicio .hero .hero2 .fa-solid {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    margin-inline-start: 0;
   }
   #inicio .hero .hero2 h2 {
-    font-size: 3rem;
-    width: 18.5ch;
+    font-size: 4rem;
   }
   #inicio .hero .hero3 h3 {
     font-size: 1.5rem;
